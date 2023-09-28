@@ -8,9 +8,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
-header, .grid, footer {
-max-width: 840px;
-margin: 0 auto;
+header,
+.grid,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
 }
 
 .grid {
