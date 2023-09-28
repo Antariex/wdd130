@@ -1,27 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header, .grid, footer {
+max-width: 840px;
+margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
 }
 
 nav {
     background-color: steelblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
-    color: white;
+    color: #fff;
     display: block;
-    padding: 20px;
-}
-
-main {
-    max-width: 840px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 h1 {
     color: steelblue;
     padding-left: 18px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid steelblue;
+}
+
+main {
+    margin: 1rem;
+    grid-column: 2/3;
 }
 
 main img {
@@ -31,19 +54,23 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
-    margin-left: 12px;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-bottom: 8px;
 }
 
 p {
+    line-height: 1.5rem;
     padding: 0;
     padding-left: 18px;
 }
 
 aside {
-    /* 1 */
-    width: 20em;
+    width: 20rem;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img {
@@ -71,4 +98,9 @@ footer {
     background-color: #ddd;
     color: #000;
     padding-left: 22px;
+}
+
+.heart {
+    color: red;
+    font-weight: bolder;
 }
