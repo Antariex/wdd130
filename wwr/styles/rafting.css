@@ -116,7 +116,7 @@ h6 {
   text-align: center;
 }
 
-.moto {
+.hero > .moto {
   position: absolute;
   width: 80%;
   top: 50%;
@@ -126,7 +126,7 @@ h6 {
   opacity: 0.9;
 }
 
-.moto p {
+.hero > .moto p {
   color: #fff;
   font-family: var(--paragraph-font);
   text-align: center;
@@ -136,7 +136,7 @@ h6 {
   padding: 8px;
 }
 
-.moto img {
+.hero > .moto img {
   float: right;
   height: 180px;
 }
