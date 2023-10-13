@@ -73,12 +73,16 @@ main {
     border-radius: 16px;
 }
 
-.quiz label, input, textarea, select {
+.quiz label,
+input,
+textarea,
+select {
     padding: 6px;
     width: 90%;
 }
 
-.quiz label::first-letter, .quiz label:nth-child(2) {
+.quiz label::first-letter,
+.quiz label:nth-child(2) {
     font-weight: bolder;
     color: #051089;
 }
