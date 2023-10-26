@@ -393,7 +393,7 @@ select {
 }
 
 
-.contactContentbutton {
+.contactContentbutton, .newsletterbutton {
   background-color: #000080;
   color: #fff;
   padding: 14px 22px;
@@ -402,6 +402,10 @@ select {
   margin: 0 auto;
   width: 90%;
   cursor: pointer;
+}
+
+.newsletterbutton {
+  background-color: var(--accent2-color) !important;
 }
 
 
