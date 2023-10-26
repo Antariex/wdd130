@@ -421,6 +421,10 @@ footer p {
   margin: 0;
 }
 
+footer a {
+  text-decoration: none !important;
+  color: var(--nav-link-color);
+}
 .sociallinks {
   display: flex;
   gap: 10px;
